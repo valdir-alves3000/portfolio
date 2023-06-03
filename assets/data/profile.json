@@ -1,0 +1,126 @@
+{
+  "name": "Valdir da Silva Alves",
+  "photo": "https://github.com/valdir-alves3000.png",
+  "job": "Fullstack Developer Jr",
+  "location": "Mauá - SP",
+  "phone": "(11) 99544-5056",
+  "email": "valdiralves3000@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/valdir-alves3000/portfolio-design-figma/main/assets/icons/css.svg"
+      },
+      {
+        "name": "Html",
+        "logo": "https://raw.githubusercontent.com/valdir-alves3000/portfolio-design-figma/main/assets/icons/html.svg"
+      },
+      {
+        "name": "Nodejs",
+        "logo": "https://raw.githubusercontent.com/valdir-alves3000/portfolio-design-figma/main/assets/icons/node-js.svg"
+      },
+      {
+        "name": "Javascript",
+        "logo": "https://raw.githubusercontent.com/valdir-alves3000/portfolio-design-figma/main/assets/icons/javascript.svg"
+      },
+      {
+        "name": "Typescript",
+        "logo": "https://raw.githubusercontent.com/valdir-alves3000/portfolio-design-figma/main/assets/icons/typescript.svg"
+      },
+      {
+        "name": "NestJs",
+        "logo": "https://raw.githubusercontent.com/valdir-alves3000/portfolio-design-figma/main/assets/icons/nestjs.svg"
+      },
+      {
+        "name": "React",
+        "logo": "https://raw.githubusercontent.com/valdir-alves3000/portfolio-design-figma/main/assets/icons/reactjs.svg"
+      },
+      {
+        "name": "Mongodb",
+        "logo": "https://raw.githubusercontent.com/valdir-alves3000/portfolio-design-figma/main/assets/icons/mongodb.svg"
+      },
+      {
+        "name": "Figma",
+        "logo": "https://raw.githubusercontent.com/valdir-alves3000/portfolio-design-figma/main/assets/icons/figma.svg"
+      },
+      {
+        "name": "Tailwindcss",
+        "logo": "https://raw.githubusercontent.com/valdir-alves3000/portfolio-design-figma/main/assets/icons/tailwindcss.svg"
+      }
+    ]
+  },
+  "portfolio": [
+    {
+      "name": "Study with Father",
+      "description": "Aplicação desenvolvida para auxiliar no aprendizado com funções básicas da matemática",
+      "url": "https://www.github.com/valdir-alves3000/studywithfather",
+
+      "imageUrl": "https://raw.githubusercontent.com/valdir-alves3000/studywithfather/main/.github/capa.png",
+      "viewUrl": "https://studywithfather.vercel.app/"
+    },
+    {
+      "name": "Pokedex",
+      "description": "Este é um projeto de Pokedex, que exibe informações sobre vários Pokémon. O objetivo deste projeto é permitir que os usuários pesquisem e visualizem informações úteis sobre as diferentes espécies de Pokémon disponíveis.",
+      "url": "https://www.github.com/valdir-alves3000/js-developer-pokedex",
+      "imageUrl": "https://raw.githubusercontent.com/valdir-alves3000/js-developer-pokedex/main/assets/img/pokemon-list.png",
+
+      "viewUrl": "https://js-developer-pokedex-silk.vercel.app/"
+    },
+    {
+      "name": "Protection Of Good",
+      "description": "Este Projeto busca contribuir com o controle de casos de pessoas infectadas por doenças contagiosas. Por meio de registro de localizações dos usuários com leitura de QRCode. No intuito de notificalos em casos de contato com pessoas contaminadas.",
+      "url": "https://github.com/valdir-alves3000/pi-viii/tree/main/frontend",
+      "imageUrl": "https://raw.githubusercontent.com/valdir-alves3000/pi-viii/main/frontend/src/assets/screenshot.png",
+      "viewUrl": "https://pi-viii.vercel.app/"
+    },
+    {
+      "name": "Protection Of Good Mobile",
+      "description": "Este Projeto busca contribuir com o controle de casos de pessoas infectadas por doenças contagiosas. Por meio de registro de localizações dos usuários com leitura de QRCode. No intuito de notificalos em casos de contato com pessoas contaminadas.",
+      "url": "https://github.com/valdir-alves3000/pi-viii/tree/main/mobile",
+      "imageUrl": "https://raw.githubusercontent.com/valdir-alves3000/pi-viii/main/mobile/assets/banner.png",
+      "viewUrl": ""
+    },
+    {
+      "name": "Protection Of Good Backend",
+      "description": "Este Projeto busca contribuir com o controle de casos de pessoas infectadas por doenças contagiosas. Por meio de registro de localizações dos usuários com leitura de QRCode. No intuito de notificalos em casos de contato com pessoas contaminadas.",
+      "url": "https://github.com/valdir-alves3000/pi-viii/tree/main/backend",
+      "imageUrl": "https://raw.githubusercontent.com/valdir-alves3000/pi-viii/main/mobile/assets/banner.png",
+      "viewUrl": ""
+    }
+  ],
+
+  "courses": [
+    {
+      "name": "Formação Scrum Master Certification",
+      "url": "https://www.dio.me/certificate/B3B65D89/"
+    },
+    {
+      "name": "Formação TypeScript Fullstack Developer",
+      "url": "https://www.dio.me/certificate/09357C73/"
+    },
+    {
+      "name": "Linux Experience",
+      "url": "https://www.dio.me/certificate/7090E953/"
+    },
+    {
+      "name": "Impulso Javascript Evolution",
+      "url": "https://www.dio.me/certificate/43504E70/"
+    },
+    {
+      "name": "Eduzz Full Stack developer #3",
+      "url": "https://www.dio.me/certificate/7802F964/"
+    },
+    {
+      "name": "GFT  Star #4 .NET",
+      "url": "https://www.dio.me/certificate/5057CD03/"
+    },
+    {
+      "name": "Inter Frontend Developer",
+      "url": "https://www.dio.me/certificate/3335DCB0/"
+    },
+    {
+      "name": "Trilha Nodejs",
+      "url": "https://drive.google.com/file/d/1NxiI9qec6CYjVbSzfJ__3kiyuJVv0qvL/view"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+.home .presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.home .presentation .heading {
+  text-align: center;
+}
+
+.home .presentation #hand {
+  width: 36px;
+  animation: salutation 2s infinite;
+  transform-origin: bottom;
+}
+
+.home .presentation .heading h2 {
+  padding: 0;
+  margin: 0.75rem;
+}
+
+.home .presentation .heading h2::after {
+  display: none;
+}
+
+.home .presentation .heading span:last-child {
+  color: var(--green-500);
+}
+
+.home .presentation #coding {
+  width: 200px;
+  margin: 2rem;
+}
+
+@media screen and (min-width: 700px) {
+  .home .presentation {
+    width: 680px;
+    padding-top: 120px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .home .presentation #hand {
+    width: 48px;
+  }
+
+  .home .presentation #coding {
+    width: 300px;
+    margin: 0;
+  }
+}
+
+@keyframes salutation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(45deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
