@@ -1,5 +1,13 @@
+import { Profile } from "@/app/components/Profile";
+import { Projects } from "@/app/components/Projects";
+import { Skills } from "@/app/components/Skills";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24"></main>
+    <>
+      <Profile />
+      <Skills />
+      <Projects />
+    </>
   );
 }
