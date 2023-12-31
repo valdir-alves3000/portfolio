@@ -1,3 +1,4 @@
+import "aos/dist/aos.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Footer } from "./components/Footer";
@@ -20,12 +21,8 @@ export const metadata: Metadata = {
   icons: {
     icon: ["/assets/icons/logo.svg"],
   },
-  applicationName: PORTFOLIO.title,
-  appleWebApp: {
-    statusBarStyle: "black",
-  },
   keywords:
-    "Valdir Alves, Frontend Engineer, Code, Communication, Web Development, User Experience, Portfolio, Front-End Developer, Developer, Brazil, Brasil",
+    "Valdir Alves, Frontend Engineer, Code, Web Development, User Experience, Portfolio, Front-End Developer, Developer",
   openGraph: {
     type: "website",
     url: "https://portfolio-valdir-alves3000.vercel.app/",
@@ -42,10 +39,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body className={`bg-gray-800  text-violet-200 ${inter.className}`}>
+      <body className={`bg-gray-800  text-violet-200 ${inter.className} `}>
         <Navbar />
-        {children}
-        <ScrollToTop />
+        <div className="max-w-[1400px] m-auto">
+          {children}
+          <ScrollToTop />
+        </div>
         <Footer />
       </body>
     </html>

@@ -1,6 +1,6 @@
 "use client";
 
-import { TSkills } from "@/utils/skills";
+import { TSkills } from "@/utils/data/skills";
 import Image from "next/image";
 
 export function Skill({ name, color, logo }: TSkills) {
