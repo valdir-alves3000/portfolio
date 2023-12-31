@@ -12,14 +12,6 @@ const config: Config = {
         "404": "url('/assets/img/p404.png')"
       },
       keyframes: {
-        "accordion-down": {
-          from: { height: "0" },
-          to: { height: "var(--radix-accordion-content-height)" },
-        },
-        "accordion-up": {
-          from: { height: "var(--radix-accordion-content-height)" },
-          to: { height: "0" },
-        },
         "slide-to-left": {
           from: {
             transform: "translateX(5%)",
@@ -38,8 +30,6 @@ const config: Config = {
         },
       },
       animation: {
-        "accordion-down": "accordion-down 0.2s ease-out",
-        "accordion-up": "accordion-up 0.2s ease-out",
         "slide-to-left": "100s slide-to-left infinite alternate linear",
         "slide-to-right": "100s slide-to-right infinite alternate linear",
       },

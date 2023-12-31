@@ -16,8 +16,8 @@ export function ActiveLink({ children, href }: ActiveLinkProps) {
   return (
     <Link
       className={clsx(
-        "m-2 hover:text-violet-400",
-        pathname.includes(href) ? "text-violet-300" : "text-gray-400"
+        "m-2 hover:text-blue-400 ease-in duration-300",
+        pathname.includes(href) ? "text-blue-400" : "text-gray-400"
       )}
       href={href}
     >
