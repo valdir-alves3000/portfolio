@@ -26,7 +26,7 @@ export default function NotFound() {
   }, [seconds, router]);
 
   return (
-    <div className="w-full min-h-[550px] mt-10 flex bg-404 items-center  text-center justify-center">
+    <div className="w-full min-h-[550px] mt-10 flex bg-404 items-center  text-center text-violet-200 justify-center p-5">
       <div className="max-w-[600px]">
         <h2 className={`text-8xl leading-1 mb-8 ${pressStart.className}`}>
           404

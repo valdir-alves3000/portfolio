@@ -18,7 +18,7 @@ export default function Courses() {
   });
 
   return (
-    <section className="w-full mb-24 px-5 text-blue-400">
+    <section className="w-full mb-32 px-5 text-blue-400">
       <h1 className="font-extrabold text-6xl my-10 m-auto w-full text-center max-[600px]:text-3xl capitalize">
         <TypingText
           text="
@@ -28,6 +28,7 @@ export default function Courses() {
       <p
         className="m-auto text-justify mb-20 text-2xl font-light leading-10 max-[600px]:text-xl max-[600px]:leading-10"
         data-aos="fade-left"
+        data-aos-duration="1100"
       >
         Exploro aqui minha fascinante jornada de estudos na programação e no
         desenvolvimento de software, onde mergulho em diversas tecnologias para

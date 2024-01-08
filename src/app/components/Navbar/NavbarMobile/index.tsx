@@ -38,15 +38,16 @@ export function NavbarMobile() {
               VALDIR ALVES <span>{" </>"}</span>
             </ActiveLink>
           </h2>
-          <ActiveLink href="/projects">PROJETOS</ActiveLink>
+          <ActiveLink href="/#projects">PROJETOS</ActiveLink>
           <ActiveLink href="/about">SOBRE</ActiveLink>
           <ActiveLink href="/contact">CONTATO</ActiveLink>
+          <ActiveLink href="/courses">CURSOS</ActiveLink>
           <Link
             href="https://github.com/valdir-alves3000"
             target="_blank"
             className="flex gap-2 items-center text-gray-500 hover:text-blue-600 group"
           >
-            <FaGithub className="text-xl group-hover:text-black ease-in duration-300" />
+            <FaGithub className="text-xl group-hover:text-gray-800 ease-in duration-300" />
             {"GitHub"}
           </Link>
           <Link

@@ -13,6 +13,7 @@ export function NavbarDesktop() {
         <ActiveLink href="/projects">PROJETOS</ActiveLink>
         <ActiveLink href="/about">SOBRE</ActiveLink>
         <ActiveLink href="/contact">CONTATO</ActiveLink>
+        <ActiveLink href="/courses">CURSOS</ActiveLink>
         <Link href="https://github.com/valdir-alves3000" target="_blank">
           <FaGithub className="text-3xl text-slate-600 hover:text-gray-800" />
         </Link>

@@ -19,12 +19,12 @@ export function Course({ certificate, image, name }: CourseProps) {
   });
 
   return (
-    <div className="flex-1 max-[1380px]:w-fit max-w-full text-blue-300 opacity-60 hover:opacity-100">
-      <div
-        className="border border-gray-700 p-2 rounded-xl mb-5 max-[1380px]:w-fit max-[980px]:w-full"
-        data-aos="fade-up"
-        data-aos-duration="1100"
-      >
+    <div
+      className="flex-1 max-[1380px]:w-fit max-w-full text-blue-300 opacity-60 hover:opacity-100"
+      data-aos="zoom-in"
+      data-aos-duration="1100"
+    >
+      <div className="border border-gray-700 p-2 rounded-xl mb-5 max-[1380px]:w-fit max-[980px]:w-full">
         <Image
           loader={() => imageLoader({ src: image, width: 500 })}
           src="me.png"
@@ -34,11 +34,7 @@ export function Course({ certificate, image, name }: CourseProps) {
           height={500}
         />
       </div>
-      <div
-        className="flex justify-between"
-        data-aos="fade-down"
-        data-aos-duration="1300"
-      >
+      <div className="flex justify-between">
         <span className="text-lg opacity-80 truncate mr-2">{name}</span>
 
         <Link
