@@ -2,7 +2,20 @@
 
 const nextConfig = {
   images: {
-    domains: ["raw.githubusercontent.com"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "www.dio.me",
+        port: "",
+        pathname: "/certificates/**",
+      },
+      {
+        protocol: "https",
+        hostname: "hermes.digitalinnovation.one",
+        port: "",
+        pathname: "/certificates/**",
+      },
+    ],
   },
 };
 
